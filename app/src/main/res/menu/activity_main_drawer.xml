@@ -32,6 +32,14 @@
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/menu_send" />
+            <item
+                android:id="@+id/nav_stastics"
+                android:icon="@drawable/ic_menu_stastics"
+                android:title="@string/menu_statistics"/>
+            <item
+                android:id="@+id/nav_players"
+                android:icon="@drawable/ic_menu_players"
+                android:title="@string/menu_players"/>
         </menu>
     </item>
 

@@ -40,4 +40,16 @@
         android:name="com.elibitscp.venadostest.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_stastics"
+        android:name="com.elibitscp.venadostest.ui.stastics.StasticFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_stastics"/>
+
+    <fragment
+        android:id="@+id/nav_players"
+        android:name="com.elibitscp.venadostest.ui.players.PlayerFragment"
+        android:label="@string/menu_players"
+        tools:layout="@layout/fragment_players"/>
 </navigation>
